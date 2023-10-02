@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>js</title>
+  <style>
+    button{
+      font-size: 40px;
+    }
+    *{
+      background-color: rosybrown;
+    }
+    p{
+      color:gold;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      font-weight: bolder
+    }
+    h1{
+      color:white;
+      font-style: 35px;
+    }
+     
+    
+  </style>
+</head>
+
+<body>
+<p> Every color has its own codes to which they can be represented</p>  
+  <input type="color" id="demo" style="background-color: red;width:50%; height:300px;"><br>
+  <h1>tap👆</h1>
+  <button onclick="getcolor()">type of color</button>
+  <script>
+    function getcolor(){
+      alert(document.getElementById("demo").value)
+    }
+  </script><br><br>
+
+</body>
+
+</html>
